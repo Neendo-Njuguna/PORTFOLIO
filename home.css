@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+/* *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   background: black;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+
+/* NAV BAR SECTION */
+
+/* Aligns logo With the other components */
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+}
+
+/* Aligns Logo & all the other components */
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 4rem;
+}
+
+/* Styles The Logo */
+.nav div.logo a {
+    text-decoration: none;
+    color: #BC8CAF;
+    font-size: 2.5rem;
+}
+
+/* Logo Hover Effect */
+.nav div.logo a:hover {
+    color: #A46565;
+}
+
+/* Nav on far right */
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+/* Horizontal Nav */
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Spacing of nav */
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 6rem;
+}
+
+/* Sizing and Color of nav contents */
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #BC8CAF;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+/* Hover effect on nav bar */
+.nav div.main_list ul li a:hover {
+    color: #A46565;
+    
+}
+
+/* Helps the nav bar slowly transition */
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 9999;
+
+}
+/* .homepage{
+    text-align: center;
+    margin: 150px;
+} */
+/* Name Caroline Style */
+ .name{
+    color: #BC8CAF;
+    /* font-size: 40PX; */
+    float: left;
+    font-size: 500%;
+    font-weight: 400;
+    padding-top: 170px;
+    padding-left: 200px;
+    padding-right: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .job{
+    color: #A46565;
+    font-size: 500%;
+    float: left;
+    padding-top: 9vh;
+    padding-left: 130px;
+    padding-right: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+ 
+ /* .homepage{
+    color: #BC8CAF;
+    font-size: 4.4rem;
+    padding: 25px;
+    margin-bottom: 100px;
+
+ } */
+ /* Brings The Black Color On The Nav Bar When One Scrolls Down*/
+.affix {
+    padding: 0;
+    background-color: #160211;
+    
+
+}
+
+
+/* HOME SECTION */
+
+.home {
+    width: 100%;
+    height: 10vh;
+}
+
+/* Whole page style */
+.mwili{
+    width: 100%;
+    height: 200vh;
+    background-size:cover;
+    background-color: #000000;
+}
+
+
+
+/* ABOUT SECTION */
+
+/* Aligns About To The Middle */
+.projects {
+	text-align:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 500%;
+    font-weight: 400;
+    width: 100%;
+    color: #BC8CAF;
+    position: absolute;
+    top: 580px;
+
+}
+.about{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    font-size: 500%;
+    color: #BC8CAF;
+  margin-top: 90vh;
+  font-weight: 400;
+  position: absolute;
+  top: 100vh ;
+}
+.maelezo{
+    text-align: left;
+    color: #BC8CAF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    font-size: 300%;
+    float: left;
+    padding-top: 550px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 200;
+    
+}
+
+
+/* Styles nav content on far right corner of the page */
+/* @media screen and (max-width:768px) {} */
+    /* .navTrigger {
+        display: block;
+    } */
+    /* .nav div.logo {
+        margin-left: 15px;
+    } */
+    /* .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    } */
+    /* Nav bar color and about alignment */
+    /* .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    } */
+    /* .nav div.media_button {
+        display: block;
+    } */
+
+
+    * {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+    
+    *::before,
+    *::after {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+    
+    /* html {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 10px;
+        cursor: default;
+    } */
+    
+    /* body {
+        font: 1.6rem Arial, Helvetica, sans-serif;
+        color: #333;
+        background: #f7f7f7;
+        margin: 0;
+    } */
+    
+    main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 3rem;
+        gap: 3rem;
+    }
+    
+    h1,
+    h2,
+    p {
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 4rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    h2 {
+        font-size: 3.6rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        
+    }
+    
+    .cards-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        width: 90vw;
+    }
+    
+    .card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-perspective: 100rem;
+        perspective: 100rem;
+        position: relative;
+        top: 13vh;
+    }
+    
+    .card:hover .card-front {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .card:hover .card-back {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .card:hover .card-back-content {
+        -webkit-animation: translate 1s ease-in-out;
+        animation: translate 1s ease-in-out;
+    }
+    
+    .card-front {
+        -webkit-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+        border-radius: 1rem;
+        -webkit-box-shadow: 0 0 1rem rgba(51, 51, 51, 0.1),
+            0 0 1rem rgba(51, 51, 51, 0.1);
+        box-shadow: 0 0 1rem rgba(51, 51, 51, 0.1), 0 0 1rem rgba(51, 51, 51, 0.1);
+        overflow: hidden;
+    }
+    
+    .card-back {
+        position: absolute;
+        height: 100%;
+        padding: 2rem;
+        background: #eee;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        -webkit-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+        border-radius: 1rem;
+        -webkit-box-shadow: 0 0 1rem rgba(51, 51, 51, 0.1),
+            0 0 1rem rgba(51, 51, 51, 0.1);
+        box-shadow: 0 0 1rem rgba(51, 51, 51, 0.1), 0 0 1rem rgba(51, 51, 51, 0.1);
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .card-back-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        height: inherit;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    .button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+        background: #a02687a1;
+        padding: 1.5rem;
+        -webkit-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+        border-radius: 0.5rem;
+    }
+    
+    .button:hover,
+    .button:focus {
+        background: #2754be;
+    }
+    
+    .button:active {
+        background: #234ba9;
+    }
+    
+    @-webkit-keyframes translate {
+        0% {
+            -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem);
+            opacity: 0;
+        }
+    
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes translate {
+        0% {
+            -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem);
+            opacity: 0;
+        }
+    
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .cards-wrapper {
+            grid-template-columns: auto;
+            width: auto;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        body {
+            font-size: 1.2rem;
+        }
+    
+        h1 {
+            font-size: 3rem;
+        }
+    
+        h2 {
+            font-size: 2.6rem;
+        }
+    
+        .button {
+            padding: 1rem;
+        }
+    }
+    

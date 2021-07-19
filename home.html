@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Caroline Njuguna</title>
+</head>
+<div class = "mwili">
+    <body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projo">Projects</a></li>
+                    <li><a href="#aboutt">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home"></section>
+    <section  id="nyumbani"> <h2 class="name">Caroline Njuguna </h2>
+        <h1 class="job">JNR UI/UX DESIGNER</h1>
+        <img class="dp" src="pic.png" alt="Carole" height="400px" width="280px"> </section>
+        
+  
+       
+    <!-- Controls the height of the page -->
+    <div style="height:100px"> 
+       
+       <section id="projo">
+     <h2 class="projects">Projects</h2>
+		<main>
+             <div class="cards-wrapper">
+            <div class="card">
+                <div class="card-front">
+                    <picture>
+                        <img loading="ecommerce" src="ecommerce.png" alt="Image 01" width="600" height="600">
+                    </picture>
+                </div>
+            <div class="card-back">
+                    <div class="card-back-content">
+                        <h2>BABY YODA</h2>
+            <p>Happy to learn each day out of my daily UI challenge.</p>
+             <a class="button" title="" href="#">Peep My Work</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-front">
+                    <picture>
+                        <img loading="mngaro" src="Mng'aro.png" alt="Image 02" width="600" height="600">
+                    </picture>
+                </div>
+          <div class="card-back">
+                    <div class="card-back-content">
+                        <h2>MNG'ARO</h2>
+            <p>Mng'aro is an ecommerce cloth shopping website design for mother/daughter ankara dresses.</p>
+            <a class="button" title="" href="#">Peep My Work</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-front">
+                    <picture>
+                        <img loading="popup" src="popup.png" alt="Image 03" width="600" height="600">
+                    </picture>
+                </div>
+             <div class="card-back">
+                    <div class="card-back-content">
+                        <h2>KYAMA'S</h2>
+            <p>In need of amazing web designs? Well search no more.</p>
+            <a class="button" title="" href="#">Peep My Work</a>
+                    </div>
+                </div>
+            </div>
+             </div>
+            </section>
+            </main>
+    </div> 
+<div style="height: 100px;">
+   
+    <!-- <section id="aboutt">
+        <div>
+            <h2 class="about"> About</h2>
+        <p class="maelezo"> Caroline is a Junior UI/UX Designer based in Nairobi,Kenya. She is a creative who comes up with
+            authentic, problem-solving, easy to use UI /UX designs that evoke the right emotions of users. She is a firm believer of simplicity and I does pay close attention to detail. Her stack is Figma, Adobe XD and Adobe Illustrator. She is also equipped with coding skills of programing languages such as Python, Kotlin and JavaScript. On the other hand Caroline is a good time manager, a team player, a proficient in public speaker and a fast learner. </p>
+        </div>
+        
+    </section> -->
+       
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- The function shrinks the nav bar removing paddings and adding your color of choice as the background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script> 
+</body>
+</div>
+</html>
